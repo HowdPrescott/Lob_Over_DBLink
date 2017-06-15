@@ -8,8 +8,11 @@ It contains two small functions:<br>
 
 ## Example usage:
 
-select id, lob_over_dblink.get_clob('some_dblink', 'some_table', 'some_clob_column', rowid)<br>
+```plsql
+select id
+     , lob_over_dblink.get_clob('some_dblink', 'some_table', 'some_clob_column', rowid)
   from some_table@some_dblink;
+```
 
 ## Installing and uninstalling:
 
