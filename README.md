@@ -23,7 +23,7 @@ Using SQL*Plus:<br>
 
 Laurence Prescott<br>
 howdprescott@hotmail.com<br>
-https://https://github.com/LaurencePrescott/Lob_Over_DBLink<br>
+https://github.com/LaurencePrescott/Lob_Over_DBLink<br>
 
 #
 &nbsp;&nbsp;&nbsp;&nbsp;:smiling_imp:<br><br>
