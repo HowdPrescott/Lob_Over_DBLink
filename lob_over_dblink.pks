@@ -1,4 +1,4 @@
-CREATE OR REPLACE PACKAGE NBNREGIONROLLOUT.lob_over_dblink
+CREATE OR REPLACE PACKAGE lob_over_dblink
 is
 /**  Laurence Prescott 12-Jun-17  **/
 /**  Functions to fetch a ClOB or BLOB column over a db_link.  **/
