@@ -9,8 +9,8 @@ It contains two small functions:<br>
 ## Example usage:
 
 ```plsql
-select id
-     , lob_over_dblink.get_clob('some_dblink', 'some_table', 'some_clob_column', rowid)
+select lob_over_dblink.get_clob('some_dblink', 'some_clob_column', rowid)
+     , lob_over_dblink.get_blob('some_dblink', 'some_blob_column', rowid)
   from some_table@some_dblink;
 ```
 
